@@ -6,3 +6,4 @@ const logAtMost5 = (n) => {
 };
 
 console.log(logAtMost5(3));
+ 
