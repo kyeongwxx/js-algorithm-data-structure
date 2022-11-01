@@ -21,9 +21,3 @@ function solution(X, Y) {
   if(!+answer) return "0"
   return answer.split("").sort().reverse().join("");
 }
-
-// console.log(solution("100", "2345")) // -1
-// console.log(solution("100", "203045")) // -1
-// console.log(solution("100", "123450")) // -1
-// console.log(solution("12321", "42531")); // 321
-console.log(solution("5525", "1255"));
