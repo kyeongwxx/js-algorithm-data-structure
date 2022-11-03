@@ -1,8 +1,6 @@
 function solution(id_list, report, k) {
   let answer = [];
-
   let splitReport = [...new Set(report)].map((el) => el.split(" "));
-
   let reportedIdMap = new Map();
   let receivedMailMap = new Map();
 
