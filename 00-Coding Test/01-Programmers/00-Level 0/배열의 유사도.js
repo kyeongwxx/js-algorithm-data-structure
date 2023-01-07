@@ -18,5 +18,3 @@ function solution(s1, s2) {
 
   return count;
 }
-
-console.log(solution(['a', 'b', 'c'], ['com', 'b', 'd', 'p', 'c']));
